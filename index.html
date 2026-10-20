@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sri Mukta Agency – Your Trusted Healthcare Partner</title>
+<meta name="description" content="Sri Mukta Agency: cardiac monitoring, wound care, stoma care, compression therapy, prosthetics and orthotics, hygiene and diagnostics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="nav__in">
+    <a class="brand" href="#home" aria-label="Sri Mukta Agency home"><b>Sri Mukta</b><span>Agency</span></a>
+    <div class="scrim" id="scrim"></div>
+    <nav id="menu" class="menu" aria-label="Main">
+      <button class="icon-btn menu__close" id="menuClose" aria-label="Close menu"><i data-i="x"></i></button>
+      <a href="#home" class="active">Home</a><a href="#about">About</a><a href="#services">Products</a><a href="#why">Why Us</a><a href="#contact">Contact</a>
+      <button class="btn btn--navy menu__book" data-book><i data-i="chat"></i>Send Enquiry</button>
+    </nav>
+    <div class="nav__actions">
+      <button class="icon-btn" id="searchBtn" aria-label="Search the site"><i data-i="search"></i></button>
+      <a class="icon-btn call-nav" href="tel:+919889197125" aria-label="Call Sri Mukta Agency"><i data-i="phone"></i></a>
+      <a class="icon-btn acct-nav" href="#/account" aria-label="Account"><i data-i="account"></i></a>
+      <button class="btn btn--navy nav__book" data-book><i data-i="chat"></i>Send Enquiry</button>
+      <button class="icon-btn burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i data-i="menu"></i></button>
+    </div>
+    <div class="navsearch" id="navSearch" aria-hidden="true">
+      <button class="icon-btn" id="searchBack" aria-label="Close search"><i data-i="back"></i></button>
+      <input id="searchIn" type="search" placeholder="Search products and sections" aria-label="Search products and sections" autocomplete="off">
+    </div>
+  </div>
+  <ul id="searchRes" class="results navres" aria-live="polite"></ul>
+</header>
+<div class="searchveil" id="searchVeil"></div>
+
+<main id="main" tabindex="-1">
+<div id="homeView">
+<section class="hero" id="home">
+  <div class="wrap hero__in">
+    <div class="hero__text">
+      <p class="eyebrow">Partnering for better care at every stage</p>
+      <h1>Sri Mukta Agency<span>Your Trusted Healthcare Partner</span></h1>
+      <p class="lead">A caring partner for heart, health, hygiene and the hospital or home. Quality medical products and diagnostics, with product details and support one call away.</p>
+      <div class="cta">
+        <button class="btn btn--navy" data-book><i data-i="chat"></i>Send Enquiry<i data-i="arrow"></i></button>
+        <a class="btn btn--ghost" href="#services">Explore Our Products<i data-i="arrow"></i></a>
+      </div>
+    </div>
+    <div class="hero__img">
+      <img src="images/hero.jpg" alt="Smiling healthcare professional with a clipboard in front of shelves of medical supplies" fetchpriority="high">
+      <div class="float-card"><i data-i="heart"></i><div><h2>Heart. Health.<br>Hygiene.</h2><p>Hospital and home care.<br>One trusted partner.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="about"><div class="wrap split reveal">
+  <div><p class="eyebrow">About</p><h2>Your Trusted Healthcare Partner</h2>
+  <p>Sri Mukta Agency supplies healthcare products across cardiac monitoring, advanced wound care, stoma care, compression therapy, prosthetics, orthotics and mobility, and hygiene with infection control.</p>
+  <p>We also work with LifeCell Diagnostic for routine, cancer and genetic diagnostics. For product details and in-service, contact Amitabh Sharma.</p></div>
+  <div class="photo"><img src="images/about.jpg" alt="Two healthcare professionals reviewing a wound care product catalogue" loading="lazy"></div>
+</div></section>
+
+<div class="wrap">
+  <ul class="benefits reveal">
+    <li><i data-i="heart"></i><div><h3>6 Product Categories</h3><p>From cardiac to hygiene</p></div></li>
+    <li><i data-i="shield"></i><div><h3>Infection Control</h3><p>PPE and protective supplies</p></div></li>
+    <li><i data-i="user"></i><div><h3>Customised Fitting</h3><p>Compression and orthotics</p></div></li>
+    <li><i data-i="headset"></i><div><h3>Product Support</h3><p>Details and in-service help</p></div></li>
+  </ul>
+
+  <section class="services" id="services">
+    <div class="services__intro reveal">
+      <p class="eyebrow">Our Products</p>
+      <h2>Complete Healthcare Solutions</h2>
+      <p>Six categories of products and services for hospitals, clinics and home care. Tap any category to see its products.</p>
+      <a class="btn btn--navy" href="#/products">View All Products<i data-i="arrow"></i></a>
+    </div>
+    <div class="cards cards--6 reveal">
+      <a class="card" data-cat="cardiac" href="#/category/cardiac"><div class="card__img"><img src="images/cardiac.jpg" alt="Single-lead heart rhythm monitor patch beside a smartphone showing a heart rate graph" loading="lazy"></div><div class="card__body"><h3>Cardiac Holter Monitor</h3><p>Single-lead continuous rhythm monitoring for better diagnosis.</p><i data-i="arrow"></i></div></a>
+      <a class="card" data-cat="wound" href="#/category/wound"><div class="card__img"><img src="images/wound.jpg" alt="Sterile wound dressings, gauze and medical tape" loading="lazy"></div><div class="card__body"><h3>Advanced Wound Care</h3><p>Biological and synthetic dressings, NPWT, HBOT and silicone gel.</p><i data-i="arrow"></i></div></a>
+      <a class="card" data-cat="stoma" href="#/category/stoma"><div class="card__img"><img src="images/stoma.jpg" alt="Stoma care pouches, skin barriers and adhesive remover wipes" loading="lazy"></div><div class="card__body"><h3>Stoma Care</h3><p>Skin barriers, one-piece and two-piece pouches, accessories and seals.</p><i data-i="arrow"></i></div></a>
+      <a class="card" data-cat="compression" href="#/category/compression"><div class="card__img"><img src="images/compression.jpg" alt="Compression stockings and elastic compression bandages" loading="lazy"></div><div class="card__body"><h3>Compression Therapy</h3><p>Standard and customised stockings, bandages and compression devices.</p><i data-i="arrow"></i></div></a>
+      <a class="card" data-cat="mobility" href="#/category/mobility"><div class="card__img"><img src="images/mobility.jpg" alt="Wheelchair, orthopedic knee brace and offloading footwear" loading="lazy"></div><div class="card__body"><h3>Prosthetics, Orthotics &amp; Mobility</h3><p>Breast prosthesis, customised orthotic devices, offloading footwear, wheelchairs.</p><i data-i="arrow"></i></div></a>
+      <a class="card" data-cat="hygiene" href="#/category/hygiene"><div class="card__img"><img src="images/hygiene.jpg" alt="Hand sanitiser, disinfectant spray, gloves, masks and test tubes" loading="lazy"></div><div class="card__body"><h3>Hygiene, Chemicals &amp; Diagnostics</h3><p>Cleaning chemicals, infection control, PPE, reagents and LifeCell diagnostics.</p><i data-i="arrow"></i></div></a>
+    </div>
+  </section>
+
+  <section class="why reveal" id="why">
+    <div class="why__text">
+      <p class="eyebrow">Why choose Sri Mukta Agency</p>
+      <h2>Partnering for Better Care at Every Stage</h2>
+    </div>
+    <ul class="why__list">
+      <li><i data-i="shield"></i><h3>Trusted Partner</h3><p>Healthcare products you can rely on.</p></li>
+      <li><i data-i="heart"></i><h3>Wide Range</h3><p>Cardiac, wound, stoma, compression and more.</p></li>
+      <li><i data-i="headset"></i><h3>Easy Enquiry</h3><p>Call, WhatsApp or send a message.</p></li>
+    </ul>
+  </section>
+</div>
+
+<section class="sec sec--tint" id="contact"><div class="wrap split reveal">
+  <div><p class="eyebrow">Contact</p><h2>Let’s work together for healthier tomorrow</h2>
+    <ul class="info"><li>Contact person: Amitabh Sharma</li><li>Phone: <a href="tel:+919889197125">9889197125</a> / <a href="tel:+919335017432">9335017432</a></li></ul>
+    <p style="margin-top:16px"><a class="btn btn--navy" href="https://wa.me/919889197125" target="_blank" rel="noopener noreferrer"><i data-i="chat"></i>Chat on WhatsApp</a></p>
+  </div>
+  <form class="form" id="contactForm" novalidate>
+    <div class="field"><label for="cName">Name</label><input id="cName" name="name" required autocomplete="name"><span class="err" aria-live="polite"></span></div>
+    <div class="field"><label for="cEmail">Email</label><input id="cEmail" name="email" type="email" required autocomplete="email"><span class="err" aria-live="polite"></span></div>
+    <div class="field"><label for="cPhone">Phone</label><input id="cPhone" name="phone" type="tel" required autocomplete="tel"><span class="err" aria-live="polite"></span></div>
+    <div class="field"><label for="cMsg">Message</label><textarea id="cMsg" name="message" rows="4" required></textarea><span class="err" aria-live="polite"></span></div>
+    <button class="btn btn--navy" type="submit">Send message</button>
+    <p class="status" role="status"></p>
+  </form>
+</div></section>
+</div>
+<section id="appView" class="appview" hidden></section>
+</main>
+
+<footer class="foot"><div class="wrap">
+  <div class="foot__grid">
+    <div><div class="brand brand--w"><b>Sri Mukta</b><span>Agency</span></div><p>Your Trusted Healthcare Partner. Partnering for better care at every stage.</p></div>
+    <div><h4>Quick links</h4><a href="#home">Home</a><a href="#about">About</a><a href="#services">Products</a><a href="#contact">Contact</a></div>
+    <div><h4>Products</h4><a href="#/category/cardiac">Cardiac Holter Monitor</a><a href="#/category/wound">Wound Care</a><a href="#/category/stoma">Stoma Care</a><a href="#/category/compression">Compression Therapy</a><a href="#/products">All Products</a></div>
+    <div><h4>Contact</h4><span>Amitabh Sharma</span><span>9889197125 / 9335017432</span></div>
+  </div>
+  <div class="foot__bar"><span>© <span id="year">2026</span> Sri Mukta Agency. Design preview.</span><div class="foot__right"><span class="foot__dev">Developed by <a href="https://umangcodeworks.dpdns.org" target="_blank" rel="noopener noreferrer">UmangCodeworks</a></span></div></div>
+</div></footer>
+<!-- Booking modal -->
+<div class="overlay" id="bookOv" hidden>
+  <div class="panel" role="dialog" aria-modal="true" aria-labelledby="bookTitle">
+    <button class="icon-btn panel__x" data-close aria-label="Close dialog"><i data-i="x"></i></button>
+    <h2 id="bookTitle">Send an enquiry</h2>
+    <p class="sub">Demo form: your enquiry is stored only in this browser and is not sent anywhere.</p>
+    <form id="bookForm" novalidate>
+      <div class="field"><label for="bName">Full name</label><input id="bName" name="name" required autocomplete="name"><span class="err" aria-live="polite"></span></div>
+      <div class="row2">
+        <div class="field"><label for="bEmail">Email address</label><input id="bEmail" name="email" type="email" required autocomplete="email"><span class="err" aria-live="polite"></span></div>
+        <div class="field"><label for="bPhone">Phone number</label><input id="bPhone" name="phone" type="tel" required autocomplete="tel"><span class="err" aria-live="polite"></span></div>
+      </div>
+      <div class="field"><label for="bService">Product category</label><select id="bService" name="service" required><option value="">Select a category</option><option>Cardiac Holter Monitor</option><option>Advanced Wound Care</option><option>Stoma Care</option><option>Compression Therapy</option><option>Prosthetics, Orthotics &amp; Mobility</option><option>Hygiene, Chemicals &amp; Diagnostics</option></select><span class="err" aria-live="polite"></span></div>
+      <div class="field"><label for="bMsg">Additional message (optional)</label><textarea id="bMsg" name="message" rows="3"></textarea></div>
+      <button class="btn btn--navy btn--full" type="submit">Send enquiry</button>
+      <p class="status" role="status"></p>
+    </form>
+  </div>
+</div>
+
+<script src="app.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
